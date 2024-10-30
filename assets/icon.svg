@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="595 880 240 240">
+<defs>
+  <style>
+  	svg {
+		dbackground-image: linear-gradient(60deg, #0474ba, #0081c5, #008dcf, #009ad8, #00a7e1);
+  	}
+    @font-face {
+      font-family: "Poppins";
+      src: url("data:application/octet-stream;base64,d09GMgABAAAAAANQAAwAAAAABhgAAAMBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGx4cLgZgAGQKgxSCQgsSAAE2AiQDIAQgBYNUByAb3wTIBB7gPe0F7bVpj84EHDw626k7AV/0l+EcXFM/gF7g/IFfqWvVVkHZogOcRduPZj8byUw2jF15ER0IgEILdkdITG6fhgkZ4uq6K9QonliTYHOTsvKB/jTASDFXO9HyviyViFkYQJwqZmG9nd8iFOAvtEfRGhjjEQ0b2qQld+Ig9LVvKDf7v4Iy2Sb2U2FeeU50F/dBD3UWRWSKBJMNkNZVbIBMZ5isQ52y5yoexJFECm3osKJpuRf6I/2Gflg/oO/X9+m7+88wNBNC66BWtMJYXI/LmuFUUiKC6cgSCWQ1SVZ7uaahpmztYU3Pyswol9KyM9L6KSgCRCzfxVJqTVMKLflKRk5WIRYUamI11KTfluvK1KtXGX3tmmXajUxFqMlVGFSZev26MObGDcu0a+mFsmIYJitSlpIjKgZLfuHer5C8ckra+v8nPNb/d2b9E7VpUS+dnPcdHn9431D5B/k4vpHX+Hm/d6/8vXt+t69lDmUOXEzd+sb2Zpe574I9C/ri/mJYN6/Q6MKQIC0xOVgrDonrXJ5Wu93HHkOH1kzNHTa7bU75ipy85ZqWt2JFTtnAzX1VjYu7dk/fTcDj3bunH999rPueY8en7156z3jPCLwXP1kwPpPnmAprR34zSdLLssLNVeuP+U/vNAo+9+/Rv63m83LCGzDFHvy9H2ze++/Rr1Dz+XshTMJX5P1tcQVdxbM0ExuQJIFeB6ERSdI4klofZmI2Vvpj7KtJcyRMVLwaRzbz9ArOxiCgsglEarEEJKIpWpfrwYBCBhhRCY7XIhh/Ukl/+lNNP8LxwYd+lNKXKqrpjwhv+r3bE29s9EXDh04k057O2KhG8Sp6s3/lRTfK6UUV8djoSRmBeOOLL4G0IY1kOhGB2oNaZdWxXsUSQumqnE9jAD0ppm9fLUHRhqxd03ZVVvHH195PJY1KylegdEbtNrpTTmnr9jgG0J/K3bJ1213PJ6lRpT4fQAnelGKjFz75eAU23tybMvoyBE6ZR3P78Yy4U9+G/zcGAAA=") format("woff2");
+    }
+    .anaglyph {
+	  text-shadow: -1.1vw 0 red, 1.1vw 0 cyan;
+	  animation: glitch 0.4s infinite ease-in-out alternate-reverse;
+	}
+	@keyframes glitch {
+	  0% { text-shadow: -1.1vw 0 red, 1.1vw 0 cyan; }
+	  90% { text-shadow: -1.1vw 0 red, 1.1vw 0 cyan; }
+	  100% { text-shadow: 1.1vw 1.1vw red, -1.1vw -1.1vw cyan; }
+	}
+  </style>
+</defs>
+<path fill="#00A7E1" d="M803.9,909.9v47.8c0,6.7-8,10.1-12.8,5.4l-9.1-8.8c-8.9-8.6-23.1-8-31.3,1.3l-43.2,49.5
+	c-5.8,6.6-15.9,7.2-22.4,1.2l-1.8-1.7c-7.1-6.6-18.3-6-24.7,1.3l-36.1,41.3c-7.4,8.4-21.2,3.2-21.2-8V909.9
+	c0-12.5,10.2-22.7,22.7-22.7h157.3C793.7,887.2,803.9,897.4,803.9,909.9z">
+	<animate attributeName="opacity"
+             values="1; 1; 0.7; 0; 0; 0.7; 1"
+             dur="60s" repeatCount="indefinite"
+             keyTimes="0; 0.40; 0.45; 0.5; 0.9; 0.95; 1"
+             fill="freeze"/>
+</path>
+
+<text class="anaglyph" x="615" y="995" font-size="140" fill="#FFA630" font-family="Poppins">+
+	<animate attributeName="x"
+             values="615; 615; 690; 690; 690; 615; 615;"
+             dur="60s" repeatCount="indefinite"
+             keyTimes="0; 0.40; 0.45; 0.5; 0.9; 0.95; 1"
+             fill="freeze"/>
+	<animate attributeName="y"
+             values="995; 995; 1100; 1100; 1100; 995; 995"
+             dur="60s" repeatCount="indefinite"
+             keyTimes="0; 0.40; 0.45; 0.5; 0.9; 0.95; 1"
+             fill="freeze"/>
+</text>
+
+<path fill="#EBEBEB" d="M803.9,1001.4v63.2c0,14-11.4,25.4-25.4,25.4H625.6c-9.5,0-14.6-11.2-8.3-18.3v0l47.2-54
+	c3.2-3.6,8.8-3.9,12.3-0.7l3.5,3.2c9.1,8.5,23.5,7.7,31.7-1.7l46.1-52.8c4.2-4.8,11.5-5.1,16-0.7l24.6,23.7
+	C802,992,803.9,996.6,803.9,1001.4z"/>
+
+</svg>

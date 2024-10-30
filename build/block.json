@@ -1,0 +1,75 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "images-with-benefits/image-plus",
+  "version": "1.1.0",
+  "title": "Image+",
+  "category": "media",
+  "icon": "images-alt2",
+  "description": "Generate more clicks, leads and sales using AI-powered images.",
+  "supports": {
+    "html": true,
+    "align": true,
+    "anchor": true
+  },
+  "textdomain": "imgwb-image-plus",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "example_src": "https://imgwb.com/vw:admin/a:samples/i:AEguJXaegs/w:1600/view?codec=avif|webp|jpeg",
+  "deprecated_attributes": {
+    "rotation": {
+      "type": "string",
+      "default": "ai"
+    },
+    "goal": {
+      "type": "string",
+      "default": "clicks"
+    },
+    "goals": {
+      "type": "object",
+      "default": {}
+    },
+    "lock_aspect_ratio": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "attributes": {
+    "from_src": {
+      "type": "string"
+    },
+    "to_src": {
+      "type": "string"
+    },
+    "image_id": {
+      "type": "string"
+    },
+    "cache_ver": {
+      "type": "string"
+    },
+    "src": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "link_blank": {
+      "type": "boolean"
+    },
+    "loading_speed": {
+      "type": "string",
+      "default": "lazy"
+    },
+    "instant_load_src": {
+      "type": "string"
+    },
+    "variant_id": {
+      "type": "string"
+    },
+    "variants": {
+      "type": "object",
+      "default": {}
+    }
+  }
+}

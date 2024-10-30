@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<svg width="20" height="20" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<title>Image+</title>
+<style type="text/css">
+circle {
+	animation: dilate 10s;
+	animation-iteration-count: infinite;
+}
+@keyframes dilate {
+    0%, 6% {
+        r: 0;
+    }
+    10%, 100% {
+        r: 20;
+    }
+}
+</style>
+	<svg style="opacity: 0">
+		<rect x="20"
+			y="70"
+			width="120"
+			height="100"
+			fill="white"
+			stroke-width="10"
+			stroke="black" />
+		<path d="M 35,95 L 35,155 L 125,155 Z" fill="black" stroke-width="0" />
+		<animate
+			attributeName="opacity" attributeType="css"
+			keyTimes="0; 1"
+			values="0; 1"
+			begin="0s;10s;60s"
+			dur="0.2s"
+			fill="freeze"
+		/>
+	</svg>
+	<svg x="20" y="-20" style="opacity: 0">
+		<rect x="20"
+			y="70"
+			width="120"
+			height="100"
+			fill="white"
+			stroke-width="10"
+			stroke="black" />
+		<path d="M 35,95 L 35,155 L 125,155 Z" fill="black" stroke-width="0" />
+		<animate
+			attributeName="opacity" attributeType="css"
+			keyTimes="0; 1"
+			values="0; 1"
+			begin="0.2s;10.2s;60.2s"
+			dur="0.2s"
+			fill="freeze"
+		/>
+	</svg>
+	<svg x="40" y="-40" style="opacity: 0">
+		<rect x="20"
+			y="70"
+			width="120"
+			height="100"
+			fill="white"
+			stroke-width="10"
+			stroke="black" />
+		<path d="M 35,95 L 35,155 L 125,155 Z" fill="black" stroke-width="0" />
+		<animate
+			attributeName="opacity" attributeType="css"
+			keyTimes="0; 1"
+			values="0; 1"
+			begin="0.4s;10.4s;60.4s"
+			dur="0.2s"
+			fill="freeze"
+		/>
+	</svg>
+	<circle class="imgwb-icon-circle" cx="145" cy="65" r="0" fill="black" stroke-width="0" />
+</svg>
